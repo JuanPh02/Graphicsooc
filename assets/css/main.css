@@ -23,8 +23,42 @@ p {
 }
 
 header {
-    background-image: url("/src/img/banner01.jpg");
+    background-image: url("../../static/banner02.jpg");
+    margin: auto;
     padding: 10px;
+}
+
+.redes {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 15px;
+    border-radius: 100%;
+}
+
+.redes img:hover {
+    cursor: pointer;
+    transition: all 0.9s linear;
+    width: 32px;
+    height: 32px;
+}
+
+#whatsapp {
+    position: absolute;
+    right: 20px;
+    border-radius: 100%;
+}
+
+#instagram {
+    position: absolute;
+    right: 60px;
+    border-radius: 100%;
+}
+
+#facebook {
+    position: absolute;
+    right: 100px;
+    border-radius: 100%;
 }
 
 #logo-container {
